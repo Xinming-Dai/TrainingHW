@@ -1,0 +1,4 @@
+SELECT Project
+FROM Salary
+GROUP BY Project
+HAVING COUNT(*) > 1
